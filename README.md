@@ -17,6 +17,18 @@ We have data from [Yandex.Realty](https://realty.yandex.ru) classified  containi
 
 ### Data Visualization
 
+The highest coorelation can be seen with area and number of rooms in the apartment.
+
+![Results of the model](Correlation.png)
+
+As it can be seen from the scatter plot, there is a positive correlation between the rent price and the area of the apartment.
+
+![Area-price](Area.png)
+
+The highest average price for renting flats are in apartments with 5 year renovation.
+
+![Renovation-price](Renovation.png)
+
 
 ## Information about model, choosen framework, hyperparams 
 **Features:** floor,	open_plan,	rooms,	area,	renovation
@@ -35,6 +47,7 @@ The parameters:
 - learning_rate: [0.05, 0.1, 0.15] 
 - max_depth: [None, 3, 5, 7, 10,] 
 
+**Best hyperparameters:** {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100}
 
 ## Installation and Running Instructions With Virtual Environment
 Creating and activating virtual environment
