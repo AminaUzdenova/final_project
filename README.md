@@ -85,3 +85,7 @@ docker run --network host -d aminauzdenova/gsom_e2e24:v.0.1
 sudo ufw allow 7778
 python3 app.py
 ```
+
+![Results of the model](postman_results.png)
+
+![Results of the model](postman_results2.png)
